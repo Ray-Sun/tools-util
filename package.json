@@ -1,0 +1,29 @@
+{
+  "name": "tools-util",
+  "version": "0.1.0",
+  "description": "common util for other rs-tools",
+  "main": "./dist/index.js",
+  "scripts": {
+    "test": "tsc && mocha --timeout 15000 --reporter spec --exit"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@gitlab.com/rs-tools/util.git"
+  },
+  "author": "Ray Sun",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gitlab.com/rs-tools/util/issues"
+  },
+  "homepage": "https://gitlab.com/rs-tools/util#readme",
+  "dependencies": {
+    "nodemailer": "^6.0.0",
+    "nodemailer-smtp-transport": "^2.7.4"
+  },
+  "devDependencies": {
+    "@types/nodemailer": "^4.6.7",
+    "@types/nodemailer-smtp-transport": "^2.7.4",
+    "chai": "^4.2.0",
+    "mocha": "^6.0.2"
+  }
+}
